@@ -1,11 +1,10 @@
 import { useDispatch } from 'react-redux';
-import * as actions from '../../redux/actions';
+import { filterContacts } from '../../redux/actions';
 import s from './Filter.module.css';
 
 const Filter = () => {
   const dispatch = useDispatch();
-  const onFilter = event =>
-    dispatch(actions.filterContacts(event.target.value));
+  const onFilter = event => dispatch(filterContacts(event.target.value));
 
   return (
     <label className={s.filter}>

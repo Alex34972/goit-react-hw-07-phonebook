@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts": [
+    {
+      "name": "Bob Simpson",
+      "number": "700-10-59",
+      "id": 1
+    },
+    {
+      "name": "Duke",
+      "number": "345-15-22",
+      "id": 2
+    },
+    {
+      "name": "kiril",
+      "number": "5765577777",
+      "id": 3
+    },
+    {
+      "name": "Петренко Кирило",
+      "number": "576557",
+      "id": 4
+    },
+    {
+      "name": "Olexandr",
+      "number": "576557",
+      "id": 5
+    }
+  ]
+}

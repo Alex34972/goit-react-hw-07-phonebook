@@ -32,7 +32,6 @@ const ContactForm = () => {
   };
   const contacts = useSelector(state => getContactsItems(state));
   const handleAppend = () => {
-    console.log(contacts);
     if (contacts.find(item => item.name === name)) {
       alert(`${name} is already in contacts`);
       reset();

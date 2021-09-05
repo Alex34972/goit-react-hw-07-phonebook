@@ -14,7 +14,7 @@ export const fetchContacts = () => async dispatch => {
 export const addContact = data => dispatch => {
   dispatch(actions.addContactsRequest());
   axios
-    .post('/contacts', data, console.log(data))
+    .post('/contacts', data)
     .then(({ data }) => dispatch(actions.addContactsSuccess(data)))
     .catch(error => dispatch(actions.addContactsError(error.message)));
 };

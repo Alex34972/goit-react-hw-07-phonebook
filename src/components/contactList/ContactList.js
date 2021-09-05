@@ -24,7 +24,7 @@ const ContactList = () => {
               <button
                 className={s.contactBtn}
                 type="button"
-                onClick={() => deleteContact(id)}
+                onClick={() => dispatch(deleteContact(id))}
               >
                 Delete
               </button>
